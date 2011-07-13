@@ -162,7 +162,8 @@ private
   class Defaults
     class << self
       attr_accessor :publisher_id, :analytics_id, :encoding, :timeout, :raise_exceptions, 
-                    :cookie_domain, :cookie_path
+                    :cookie_domain, :cookie_path, :ad_request, :analytics_request,
+                    :test_mode
     end
   end
 
